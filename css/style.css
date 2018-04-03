@@ -18,17 +18,33 @@ header{
 .login a{
 	color: #FFF;
 	display: block; 
-	padding: 12px;
-	margin-right: 200px;
+	padding: 10px;
+	margin-right: 137px;
 }
 .logo{
 	width: 312px;
 	float: left;
 	padding: 10px 0px;
 }
-.container{
-	position: relative;
-
+nav{
+	height: 90px;
+	float: right;	
+}
+nav ul{
+	height: 90px;
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	float: left;
+	padding: 30px 0px;
+    width: 120px;
+    height: 91px;
+}
+nav a {
+	color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Montserrat Ligth';    
 }
 #slider{
 	width: 100%;
@@ -52,29 +68,17 @@ header{
 	color: #fefefe;
 	padding-top: 150px;
 }
+#contenedor{
+	position: relative;
+}
 #cnh2{
 	color: #0050a2;
 	font-weight: bold;
 }
-nav{
-	height: 90px;
-	float: right;	
-}
-nav ul{
-	height: 90px;
-	margin: 0px;
-	padding: 0px;
-}
-nav li{
-	float: left;
-	padding: 30px 0px;
-    width: 120px;
-    height: 91px;
-}
-nav a {
-	color: #FFFFFF;
-    font-size: 18px;
-    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;    
+#contenedorContador p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
 }
 .contador{
 	background-color: rgb(33,34,47);
@@ -96,11 +100,190 @@ nav a {
 	margin-left: 70px;
 	padding: 1rem;
 }
-#img{
-	width: 1000px;
+#servicios h2 {
+	font-family: 'Montserrat Bold';
+	font-weight: bold;
+	color: #666;
+	font-size: 24px;
+	text-align: center;
 }
-
-
-
-
-
+#titulo {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+h4{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 500;
+}
+.flex{
+	height: 234px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.f1{
+	background: url(../img/servicio1.jpg);
+	background-size: contain;
+}
+.f2{
+	background: url(../img/servicio2.jpg);
+	background-size: contain;
+}
+.f3{
+	background: url(../img/servicio3.jpg);
+	background-size: contain;
+}
+.f4{
+	background: url(../img/servicio4.jpg);
+	background-size: contain;
+}
+.f5{
+	background: url(../img/servicio5.jpg);
+	background-size: contain;
+}
+.f6{
+	background: url(../img/servicio6.jpg);
+	background-size: contain;
+}
+#contenedorApp{
+	width: 100%;
+	height: 657px;
+	background: url("../img/backApp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #fefefe;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+#contenedorApp h3{
+	font-family: 'Monserrat';
+	font-weight: bold;
+	font-size: 36px;
+}
+#contenedorApp h2{
+	font-family: 'Monserrat';
+	font-weight: bold;
+	font-size: 24px;
+}
+#contenedorCd{
+	background: url("../img/backContacto.jpg");
+	width: 100%;
+	height: 164px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#contenedorCd h4{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+#contenedorCd h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+#contenedorCd p{
+	font-size: 10px;
+    font-weight: 100;
+    color: #fff;
+}
+#ciudad{
+    position: relative;
+    top: 21%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+#contacto, #boton {
+	margin-top: 4%;
+}
+#contacto h3{
+	color: #747474;
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0;
+}
+#contacto h2{
+	color: #747474;
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	font-size: 16px;
+	font-weight: bold;
+}
+#contacto p, label{
+	color: #747474;
+	font-family: 'Myriad Pro', sans-serif;
+	text-align: right;
+	font-size: 12px;
+	margin: 0;
+}
+footer{
+	background: #2a3944;
+	width: 100%;
+	height: 279px;
+	padding-top: 30px;
+}
+footer p{
+	font-family: 'Monserrat';
+	text-align: justify;
+	font-size: 13px;
+	font-weight: 100;
+	margin-bottom: 10px;
+	color: #fff;
+}
+footer h3{
+	color: #FFF;
+	font-family: 'Montserrat';
+	text-align: left;
+	font-size: 16px; 
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 14px;
+}
+.logo2{
+	padding-top: 18px;
+	padding-bottom: 12px;
+}
+.loguito{
+	background: url("../img/ts.png");
+	width: 30px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+	padding-right: 15px;
+}
+.redes{
+	float: left;
+	padding-right: 10px;
+}
+#barra{
+	background: #2c4150;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+#barra p{
+	color: #edaa3d;
+	text-align: center;
+	font-family: 'Monserrat thin';
+	font-weight: lighter;
+	padding: 10px 0;
+}
